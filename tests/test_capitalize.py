@@ -12,6 +12,9 @@ if capitalize(' ') != ' ':
 if capitalize('Hello') != 'Hello':
     raise Exception('Функция работает неверно!')
 
+if capitalize('17') != '17':
+    raise Exception('Функция работает неверно!')
+
 print('Все тесты пройдены!')
 
 
